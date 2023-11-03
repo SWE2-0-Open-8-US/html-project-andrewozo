@@ -93,3 +93,16 @@ a {
   margin: 1%;
   font-size: smaller;
 }
+
+.footer-nav {
+  display: flex;
+  background-color: darkblue;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: solid 5px gray;
+}
+
+.footer-pic {
+  width: 80px;
+}
