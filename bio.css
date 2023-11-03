@@ -1,0 +1,71 @@
+* {
+  font-family: Impact, fantasy;
+  font-size: 20px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.header-nav {
+  display: flex;
+  background-color: darkblue;
+  position: sticky;
+  top: 0px;
+  padding-left: 10px;
+  padding-right: 50px;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 5px gray;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+.picture-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-pic {
+  height: 500px;
+  border: solid 5px lightgray;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+
+h1 {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  color: navy;
+}
+
+.p-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+p {
+  font-size: x-large;
+  color: navy;
+}
+
+.footer-nav {
+  display: flex;
+  background-color: darkblue;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: solid 5px gray;
+}
+
+.footer-pic {
+  width: 80px;
+}

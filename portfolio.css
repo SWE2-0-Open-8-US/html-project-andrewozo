@@ -1,0 +1,100 @@
+* {
+  font-family: Impact, fantasy;
+  font-size: 20px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+nav {
+  display: flex;
+  background-color: darkblue;
+  position: sticky;
+  top: 0px;
+  padding-left: 10px;
+  padding-right: 50px;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 5px gray;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.projects h1 {
+  font-size: xx-large;
+  text-decoration: underline;
+  color: navy;
+}
+
+.projects li {
+  list-style: none;
+  border: solid 5px gray;
+  box-shadow: 6px 6px 6px 6px gray;
+  margin: 2%;
+}
+
+.projects h3 {
+  margin-left: 3%;
+  color: darkblue;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.projects p {
+  font-size: smaller;
+  font-style: italic;
+  color: darkslategrey;
+  margin: 2%;
+}
+
+.projects a {
+  color: orange;
+  align-content: flex-end;
+}
+
+.projects img {
+  height: 500px;
+  border: solid 5px lightgray;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+
+.picture-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.footer-nav {
+  display: flex;
+  background-color: darkblue;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: solid 5px gray;
+}
+
+.footer-pic {
+  width: 80px;
+}

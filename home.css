@@ -1,0 +1,63 @@
+* {
+  font-family: Impact, fantasy;
+  font-size: 20px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+nav {
+  display: flex;
+  background-color: darkblue;
+  position: sticky;
+  padding-left: 10px;
+  padding-right: 50px;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 5px gray;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+h1 {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  color: navy;
+}
+
+.picture-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.spongebob {
+  width: 40%;
+  border: solid 5px lightgray;
+  border-radius: 5px;
+  box-shadow: 6px 6px 6px 6px gray;
+}
+
+.caption {
+  font-size: x-large;
+}
+
+.footer-nav {
+  display: flex;
+  background-color: darkblue;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: solid 5px gray;
+}
+
+.footer-pic {
+  width: 80px;
+}
