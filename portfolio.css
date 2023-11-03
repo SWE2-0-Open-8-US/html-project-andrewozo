@@ -1,0 +1,25 @@
+* {
+  font-family: Impact, fantasy;
+  font-size: 20px;
+}
+
+body {
+  background-color: lightgray;
+}
+
+nav {
+  display: flex;
+  background-color: darkblue;
+  position: sticky;
+  padding-left: 10px;
+  padding-right: 50px;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 5px gray;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
