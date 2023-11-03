@@ -11,6 +11,7 @@ nav {
   display: flex;
   background-color: darkblue;
   position: sticky;
+  top: 0px;
   padding-left: 10px;
   padding-right: 50px;
   justify-content: space-around;
@@ -22,4 +23,73 @@ nav {
 a {
   text-decoration: none;
   color: orange;
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.education h1 {
+  font-size: xx-large;
+  text-decoration: underline;
+  color: navy;
+}
+
+.education li {
+  list-style: none;
+  border: solid 5px gray;
+  box-shadow: 6px 6px 6px 6px gray;
+  margin: 2%;
+}
+
+.education h3 {
+  margin-left: 3%;
+  color: darkblue;
+}
+
+.education p {
+  margin-left: 3%;
+  font-size: smaller;
+  font-style: italic;
+  color: darkslategrey;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work h1 {
+  font-size: xx-large;
+  text-decoration: underline;
+  color: navy;
+}
+
+.work .job {
+  list-style: none;
+  border: solid 5px gray;
+  box-shadow: 6px 6px 6px 6px gray;
+  margin: 2%;
+}
+
+.work p {
+  margin-left: 3%;
+  font-size: large;
+  font-style: italic;
+  color: darkslategrey;
+}
+
+.work h3 {
+  margin-left: 3%;
+  color: darkblue;
+}
+
+.work .description {
+  margin: 1%;
+  font-size: smaller;
 }
