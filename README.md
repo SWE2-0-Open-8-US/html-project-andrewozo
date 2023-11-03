@@ -20,10 +20,13 @@ Your bio page is a place for people to get to know you. You should include your 
 
 3. Experience Page
 
-This should highlight your past experience, both professionally and academically.  Include employers/schools as you might on a resume, and list accomplishments at each organization.
+This should highlight your past experience, both professionally and academically. Include employers/schools as you might on a resume, and list accomplishments at each organization.
 
 4. Portfolio Page
 
 The meat and potatoes of your personal site, here you want to include the projects you've worked on. For each project you wish to showcase, you should include the name of your project, a brief description, a screenshot, and a link to where it lives on the web. Since we don’t have any projects to display yet, placeholder images/links/descriptions are completely fine.
 
 Our goal here is to practice writing semantic HTML, basic CSS, and to learn a bit about hosting our content on the web.
+
+Link for deployed site
+https://swe2-0-open-8-us.github.io/html-project-andrewozo/
